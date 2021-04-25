@@ -27,7 +27,7 @@ public class PayService {
 
         //从存储介质(如MySQL、Redis)查询商品信息、总金额等敏感信息
 
-        //…………省略相关代码，这里直接赋值…………
+        //…………省略相关代码，这里直接赋值…
 
         bo.setSubject("测试商品");
         bo.setTotal(new BigDecimal(10.00));

@@ -11,3 +11,10 @@ alipay:
   returnUrl: http://localhost:63342/MyProject/static/return.html
   #支付成功的接口回调，我们还没写，先空着
   notifyUrl:
+
+realName:
+#  实名认证的code
+  appcode: b83c1d6e144d4b258e1e2ddf6b1afae8
+  host: https://idcardv2.shumaidata.com
+  path: /new-idcard
+  method: GET
